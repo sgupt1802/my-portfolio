@@ -8,12 +8,13 @@ const Social = () => {
         </a>
 
         <a href="#dribble" className="home__social-icon" target="_blank">
-        <i class="uil uil-dribble"></i>
+        <i class="uil uil-linkedin"></i>
         </a>
 
         <a href="#github" className="home__social-icon" target="_blank">
         <i class="uil uil-github-alt"></i>
         </a>
+        
     </div>
   )
 }
