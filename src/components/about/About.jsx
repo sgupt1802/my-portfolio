@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import './about.css';
 import AboutImg from '../../assets/file.jpg';
-import Info from './Info'
+import Info from './Info';
 import CV from "../../assets/Samarth-Cv.pdf";
 
 const About = () => {
@@ -51,4 +51,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;
