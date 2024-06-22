@@ -99,7 +99,7 @@ const Data = () => {
         </h1>
 
         <h3 className="home__subtitle">{currentSubtitle}</h3>
-        <p className="home__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis praesentium fuga nam ad recusandae repellendus? Cumque expedita sed, consequatur magnam officia numquam! Quo consequatur temporibus repudiandae quidem iste, fugiat perferendis.</p>
+        <p className="home__description"></p>
 
         <a href="#contact" className="button button--flex">
             Say Hello
