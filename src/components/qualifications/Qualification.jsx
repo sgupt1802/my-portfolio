@@ -72,7 +72,7 @@ const Qualification = () => {
                         </div>
                     </div>
 
-                    <div className="qualification__data">
+                    {/* <div className="qualification__data">
                         <div></div>
 
                         <div>
@@ -87,7 +87,7 @@ const Qualification = () => {
                                 <i className="uil uil-calendar-alt"></i> 2017-2018
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
 
