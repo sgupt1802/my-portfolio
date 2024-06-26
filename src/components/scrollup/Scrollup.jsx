@@ -12,5 +12,5 @@ const Scrollup = () => {
     </a>
   )
 }
-
+//this is for the scrollup section
 export default Scrollup
