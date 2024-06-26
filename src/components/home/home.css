@@ -122,6 +122,7 @@
     .home__content{
         grid-template-columns: 100px repeat(2, 1fr);
         column-gap:1.25rem;
+        outline: none;
     }
 
     .home__hand{
