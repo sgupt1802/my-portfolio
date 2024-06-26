@@ -82,7 +82,7 @@ const Qualification = () => {
 
                         <div>
                             <h3 className="qualification__title">UX Expert</h3>
-                            <span className="qualification__subtitle">Spain Institute</span>
+                            <span className="qualification__subtitle">VJTI College</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i> 2017-2018
                             </div>
