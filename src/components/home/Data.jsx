@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Data = () => {
-  const subtitles = ['Software Developer', 'Visual Designer', 'Data Scientist'];
+  const subtitles = ['Software Developer', 'Visual Designer', 'UI Designer'];
   const [subtitle, setSubtitle] = useState(subtitles[0]);
   const [currentSubtitle, setCurrentSubtitle] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
