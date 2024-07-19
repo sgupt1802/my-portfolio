@@ -3,25 +3,37 @@ export const projectsData = [
     {
         id: 1,
         image: work1,
-        title: "Web design",
+        title: "E-Market",
         category: "web",
     },
     {
         id: 2,
         image: work1,
-        title: "App movil",
+        title: "Weatherio",
         category: "web",
     },
     {
         id: 3,
         image: work1,
-        title: "Brand design",
-        category: "design",
+        title: "HealthHub Connect",
+        category: "Web",
     },
     {
         id: 4,
         image: work1,
-        title: "App movil",
+        title: "Mini Projects with React",
+        category: "learnings",
+    },
+    {
+        id: 5,
+        image: work1,
+        title: "Machine Learning with Torch",
+        category: "learnings",
+    },
+    {
+        id:6,
+        image: work1,
+        title: "Pharmacy Management System",
         category: "web",
     },
 ];
@@ -35,6 +47,6 @@ export const projectsNav = [
         name: 'web',
     },
     {
-        name: 'design',
+        name: 'Learnings',
     },
 ];
