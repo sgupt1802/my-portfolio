@@ -1,5 +1,7 @@
 import work1 from '../../assets/work1.jpg'
-
+import githubImage from '../../assets/github.png'
+import git2 from '../../assets/git2.jpeg'
+import git22 from '../../assets/git2.jpg'
 export const projectsData = [
     {
         id: 1,
@@ -24,21 +26,21 @@ export const projectsData = [
     },
     {
         id: 4,
-        image: work1,
+        image: git22,
         title: "Mini Projects with React",
         category: "learnings",
         link: "https://github.com/sgupt1802/Myreact_tutorial"
     },
     {
         id: 5,
-        image: work1,
+        image: git22,
         title: "Machine Learning with Torch",
         category: "learnings",
         link: "https://github.com/sgupt1802/MyTorchTuts"
     },
     {
         id: 6,
-        image: work1,
+        image: git22,
         title: "Pharmacy Management System",
         category: "web",
         link: "https://github.com/sgupt1802/Pharmacy-Management-System"

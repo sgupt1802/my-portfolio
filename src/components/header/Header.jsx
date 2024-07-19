@@ -38,14 +38,14 @@ const Header = () => {
                 </li>
 
                 <li className="nav__item">
-                    <a href="#services" onClick={()=>setactiveNav('#services')} className={activeNav==='#services' ? 'nav__link active-link' : 'nav__link'}>
-                        <i className="uil uil-briefcase-alt nav__icon"></i> Services
+                    <a href="#qualification" onClick={()=>setactiveNav('#services')} className={activeNav==='#services' ? 'nav__link active-link' : 'nav__link'}>
+                        <i className="uil uil-briefcase-alt nav__icon"></i> Experience
                     </a>
                 </li>
 
                 <li className="nav__item">
                     <a href="#portfolio" onClick={()=>setactiveNav('#portfolio')} className={activeNav==='#portfolio' ? 'nav__link active-link' : 'nav__link'}>
-                        <i className="uil uil-scenery nav__icon"></i> Portfolio
+                        <i className="uil uil-scenery nav__icon"></i> Projects
                     </a>
                 </li>
 
@@ -57,12 +57,12 @@ const Header = () => {
 
             </ul>
 
-            <i class="uil uil-times nav__close" onClick={()=> showMenu(!Toggle)}></i>
+            <i className="uil uil-times nav__close" onClick={()=> showMenu(!Toggle)}></i>
 
         </div>
 
         <div className="nav__toggle" onClick={()=> showMenu(!Toggle)}>
-            <i class="uil uil-apps"></i>
+            <i className="uil uil-apps"></i>
         </div>
         </nav>
     </header>

@@ -1,5 +1,4 @@
 import Image1 from '../../assets/download.png'
-
 export const Data = [
     {
       id: 1,
