@@ -1,48 +1,48 @@
 import React, { useState, useEffect } from 'react';
 
 const Data = () => {
-  const subtitles = ['Software Developer', 'Visual Designer', 'UI Designer'];
-  const [subtitle, setSubtitle] = useState(subtitles[0]);
-  const [currentSubtitle, setCurrentSubtitle] = useState('');
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [index, setIndex] = useState(0);
-  const [charIndex, setCharIndex] = useState(0);
+  // const subtitles = ['Software Developer', 'Visual Designer', 'UI Designer'];
+  // const [subtitle, setSubtitle] = useState(subtitles[0]);
+  // const [currentSubtitle, setCurrentSubtitle] = useState('');
+  // const [isDeleting, setIsDeleting] = useState(false);
+  // const [index, setIndex] = useState(0);
+  // const [charIndex, setCharIndex] = useState(0);
 
-  useEffect(() => {
-    let timeout;
+  // useEffect(() => {
+  //   let timeout;
 
-    if (isDeleting) {
-      if (charIndex > 0) {
-        timeout = setTimeout(() => {
-          setCurrentSubtitle(subtitle.slice(0, charIndex - 1));
-          setCharIndex(charIndex - 1);
-        }, 70); // Time interval for deleting characters
-      } else {
-        setIsDeleting(false);
-        setIndex((index + 1) % subtitles.length);
-      }
-    } else {
-      if (charIndex < subtitle.length) {
-        timeout = setTimeout(() => {
-          setCurrentSubtitle(subtitle.slice(0, charIndex + 1));
-          setCharIndex(charIndex + 1);
-        }, 70); // Time interval for adding characters
-      } else {
-        timeout = setTimeout(() => {
-          setIsDeleting(true);
-        }, 800); // Pause before starting deletion
-      }
-    }
+  //   if (isDeleting) {
+  //     if (charIndex > 0) {
+  //       timeout = setTimeout(() => {
+  //         setCurrentSubtitle(subtitle.slice(0, charIndex - 1));
+  //         setCharIndex(charIndex - 1);
+  //       }, 70); // Time interval for deleting characters
+  //     } else {
+  //       setIsDeleting(false);
+  //       setIndex((index + 1) % subtitles.length);
+  //     }
+  //   } else {
+  //     if (charIndex < subtitle.length) {
+  //       timeout = setTimeout(() => {
+  //         setCurrentSubtitle(subtitle.slice(0, charIndex + 1));
+  //         setCharIndex(charIndex + 1);
+  //       }, 70); // Time interval for adding characters
+  //     } else {
+  //       timeout = setTimeout(() => {
+  //         setIsDeleting(true);
+  //       }, 800); // Pause before starting deletion
+  //     }
+  //   }
 
-    return () => clearTimeout(timeout);
-  }, [charIndex, isDeleting, subtitle]);
+  //   return () => clearTimeout(timeout);
+  // }, [charIndex, isDeleting, subtitle]);
 
-  useEffect(() => {
-    if (!isDeleting) {
-      setSubtitle(subtitles[index]);
-      setCharIndex(0);
-    }
-  }, [index, isDeleting]);
+  // useEffect(() => {
+  //   if (!isDeleting) {
+  //     setSubtitle(subtitles[index]);
+  //     setCharIndex(0);
+  //   }
+  // }, [index, isDeleting]);
 
   return (
     <div className="home__data">
@@ -98,7 +98,7 @@ const Data = () => {
         </svg> */}
       </h1>
 
-      <h3 className="home__subtitle">{currentSubtitle}</h3>
+      <h3 className="home__subtitle">Software Developer</h3>
       <p className="home__description">Welcome to My Portfolio!</p>
       <p className="home__description">I am currently pursuing my Bachelor Degree in Information Technology Engineering at VJTI, Mumbai. I enjoy Web Development and DSA problem solving. Here, in my Portfolio you can explore my Projects and Skills. Explore my portfolio to see how I mix creativity with technical skills. I'm happy to share my story with you! </p>
 
