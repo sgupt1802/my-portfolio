@@ -1,25 +1,28 @@
 import work1 from '../../assets/work1.jpg'
 import githubImage from '../../assets/github.png'
 import git2 from '../../assets/git2.jpeg'
+import emarket from '../../assets/E-market.png'
+import weatherio from '../../assets/weatherio.png'
+import weatherio2 from '../../assets/weatherio22.png'
 import git22 from '../../assets/git2.jpg'
 export const projectsData = [
     {
         id: 1,
-        image: work1,
+        image: emarket,
         title: "E-Market",
         category: "web",
-        link: "https://github.com/sgupt1802/E-Market"
+        link: "https://e-market-oe09.onrender.com/"
     },
     {
         id: 2,
-        image: work1,
+        image: weatherio2,
         title: "Weatherio",
         category: "web",
         link: "https://weathercanvas.netlify.app/"
     },
     {
         id: 3,
-        image: work1,
+        image: git22,
         title: "HealthHub Connect",
         category: "Web",
         link: "https://github.com/sgupt1802/HealthHub_Connect"

@@ -53,7 +53,7 @@ const Contact = () => {
               <i className="bx bxl-messenger contact__card-icon"></i>
               <h3 className="contact__card-title">Messenger</h3>
               <span className="contact__card-data">user.fb123</span>
-              <a href="#linktocrypto" className="contact__button">
+              <a href="https://www.facebook.com/samarth.gupta.589100/" className="contact__button">
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -62,7 +62,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title hello">Write me your project</h3>
+          <h3 className="contact__title hello">Write me your message</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
@@ -86,13 +86,13 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Message</label>
               <textarea
                 name="project"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Write your project"
+                placeholder="Write your message"
               ></textarea>
             </div>
 
